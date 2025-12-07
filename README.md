@@ -20,6 +20,7 @@ El sistema permite:
 ---
 
 ## Instrucciones de Uso
+## Cada boton en la interfaz muestra para que sirve o que funcion tiene para asi poder hacer ams facil la interacciòn.
 1. Abrir el archivo `index.html` en un navegador web.
 2. Usar el panel lateral para agregar una figura.
 3. Activar las luces deseadas.
@@ -34,7 +35,7 @@ El sistema permite:
 - HTML
 - CSS3
 - JavaScript
-- Three.js (mediante CDN)
+- Three.js 
 
 ---
 
