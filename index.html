@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simulador 3D de Laboratorio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>Simulador 3D de Laboratorio</h1>
+
+    <div id="panel">
+        <h2>Panel de control</h2>
+        <p>
+            Usa los botones para agregar figuras, activar efectos visuales, cambiar luces, colores, texturas y sombreado.
+            <br>Usa los sliders para rotar, mover y escalar el modelo.
+        </p>
+
+        <h3>Agregar objetos</h3>
+        <button id="btnCubo">Agregar Cubo</button>
+        <button id="btnEsfera">Agregar Esfera</button>
+        <button id="btnCilindro">Agregar Cilindro</button>
+
+        <h3>Efectos visuales</h3>
+        <button id="btnWireframe">Wireframe ON/OFF</button>
+        <button id="btnRotacion">Rotación ON/OFF</button>
+
+        <h3>Luces</h3>
+        <button id="btnAmbiente">Ambiental ON/OFF</button>
+        <button id="btnDireccional">Direccional ON/OFF</button>
+        <label>Direccional Y:</label>
+        <input type="range" id="dirY" min="-5" max="5" step="0.1" value="5">
+        <button id="btnPuntual">Luz Puntual ON/OFF</button>
+        <label>Puntual X:</label>
+        <input type="range" id="pX" min="-5" max="5" step="0.1" value="0">
+        <label>Puntual Y:</label>
+        <input type="range" id="pY" min="-5" max="5" step="0.1" value="3">
+        <label>Puntual Z:</label>
+        <input type="range" id="pZ" min="-5" max="5" step="0.1" value="3">
+
+        <h3>Relleno de polígonos</h3>
+        <label>Color homogéneo:</label>
+        <select id="selectColor">
+            <option value="#ff0000">Rojo</option>
+            <option value="#00ff00">Verde</option>
+            <option value="#0000ff">Azul</option>
+        </select>
+        <button id="btnColor">Aplicar color</button>
+        <button id="btnDegradado">Color Degradado</button>
+
+        <h4>Texturas:</h4>
+        <button class="btnTexture" data-t="textura 1.jpg">Textura 1</button>
+        <button class="btnTexture" data-t="textura 2.jpg">Textura 2</button>
+        <button class="btnTexture" data-t="textura 3.jpg">Textura 3</button>
+
+        <h3>Técnicas de sombreado</h3>
+        <button class="btnShading" data-s="constante">Constante</button>
+        <button class="btnShading" data-s="flat">Malla poligonal</button>
+        <button class="btnShading" data-s="interpolado">Interpolado / Flat Shading</button>
+        <button class="btnShading" data-s="gouraud">Gouraud</button>
+        <button class="btnShading" data-s="phong">Phong</button>
+        <button class="btnShading" data-s="fractales">Fractales</button>
+
+        <h3>Transformaciones del modelo</h3>
+        <p>Modifica los sliders para rotar, mover y escalar la figura actual.</p>
+        <label>Rotación X:</label>
+        <input type="range" id="rotX" min="0" max="6.28" step="0.01" value="0">
+        <label>Rotación Y:</label>
+        <input type="range" id="rotY" min="0" max="6.28" step="0.01" value="0">
+        <label>Rotación Z:</label>
+        <input type="range" id="rotZ" min="0" max="6.28" step="0.01" value="0">
+
+        <label>Traslación X:</label>
+        <input type="range" id="transX" min="-5" max="5" step="0.1" value="0">
+        <label>Traslación Y:</label>
+        <input type="range" id="transY" min="-5" max="5" step="0.1" value="0">
+        <label>Traslación Z:</label>
+        <input type="range" id="transZ" min="-5" max="5" step="0.1" value="0">
+
+        <label>Escalado X:</label>
+        <input type="range" id="scaleX" min="0.1" max="5" step="0.01" value="1">
+        <label>Escalado Y:</label>
+        <input type="range" id="scaleY" min="0.1" max="5" step="0.01" value="1">
+        <label>Escalado Z:</label>
+        <input type="range" id="scaleZ" min="0.1" max="5" step="0.01" value="1">
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
