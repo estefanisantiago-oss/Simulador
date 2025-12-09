@@ -2,10 +2,13 @@
 # Simulador 3D de Laboratorio – Three.js
 -------------------------------------------------------
 ##integrantes del equipo y roles que desempeñaron:
-
+---
 Brittany Arleth Cortez Del Angel:Grabacion de video 
+
 Gustavo Hernandez Tolentino: codificaciòn de la pàgina
+
 Estefani Elvira Santiago Rodriguez: Documentaciòn
+
 --------------------------------------------------------
 ## Objetivo del Proyecto
 Desarrollar una aplicación web interactiva en 3D utilizando Three.js que permita visualizar objetos geométricos con distintos tipos de iluminación, relleno, texturas y técnicas de sombreado, permitiendo al usuario interactuar con los modelos en tiempo real.
