@@ -1,6 +1,12 @@
 # Simulador
 # Simulador 3D de Laboratorio – Three.js
+-------------------------------------------------------
+##integrantes del equipo y roles que desempeñaron:
 
+Brittany Arleth Cortez Del Angel:Grabacion de video 
+Gustavo Hernandez Tolentino: codificaciòn de la pàgina
+Estefani Elvira Santiago Rodriguez: Documentaciòn
+--------------------------------------------------------
 ## Objetivo del Proyecto
 Desarrollar una aplicación web interactiva en 3D utilizando Three.js que permita visualizar objetos geométricos con distintos tipos de iluminación, relleno, texturas y técnicas de sombreado, permitiendo al usuario interactuar con los modelos en tiempo real.
 
@@ -43,6 +49,40 @@ El sistema permite:
 
 Se utiliza Three.js por CDN:
 
+--------Pasos para instalar librerías con NPM------------------------------------------------
+
+Descargar e instalar Node.js desde su página oficial.
+
+Abrir la terminal o símbolo del sistema.
+
+Entrar a la carpeta donde estará el proyecto.
+
+Inicializar el proyecto para crear el archivo de configuración.
+
+Instalar la librería que se necesite.
+
+Esperar a que termine la instalación.
+
+Usar la librería dentro del proyecto configurando los archivos necesarios.
+
+Ejecutar el proyecto para comprobar que todo funcione correctamente.
+
+--------------------------Pasos para instalar librerías con CDN--------------------------------
+
+Buscar la librería en un sitio de CDNs confiable.
+
+Copiar el enlace que proporciona el CDN.
+
+Abrir el archivo HTML del proyecto.
+
+Pegar el enlace dentro de la etiqueta de encabezado o antes de cerrar el cuerpo del documento.
+
+Guardar los cambios.
+
+Usar la librería directamente en el archivo JavaScript o dentro del mismo HTML.
+
+Abrir el proyecto en el navegador para verificar que funcione correctamente.
+
 
 <img width="1149" height="493" alt="Captura de pantalla 2025-12-06 221058" src="https://github.com/user-attachments/assets/553e12ab-17b8-485d-ad29-e62f28a02d3a" />
 <img width="1033" height="391" alt="Captura de pantalla 2025-12-06 221012" src="https://github.com/user-attachments/assets/416ecc46-82f0-49c4-bb41-9c1425cbd33a" />
@@ -73,7 +113,16 @@ Se utiliza Three.js por CDN:
 <img width="1260" height="739" alt="image" src="https://github.com/user-attachments/assets/94fa5f67-825d-45b3-974e-ff61a7024715" />
 
 
+Video del proyecto mostrando las funcniones 
+https://github.com/user-attachments/assets/ef2c6e6a-5826-4e62-9c08-05e72005f0f3
 file:///C:/Users/estef/Downloads/WhatsApp%20Video%202025-12-08%20at%2011.37.37%20PM.mp4
+
+
+https://github.com/user-attachments/assets/93039df4-72be-43ab-9247-d5078e4a60b5
+
+
+
+
 
 
 
