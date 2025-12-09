@@ -117,11 +117,9 @@ Abrir el proyecto en el navegador para verificar que funcione correctamente.
 
 
 Video del proyecto mostrando las funcniones 
-https://github.com/user-attachments/assets/ef2c6e6a-5826-4e62-9c08-05e72005f0f3
-file:///C:/Users/estef/Downloads/WhatsApp%20Video%202025-12-08%20at%2011.37.37%20PM.mp4
 
 
-https://github.com/user-attachments/assets/93039df4-72be-43ab-9247-d5078e4a60b5
+https://github.com/user-attachments/assets/796a2c77-c9e8-476c-9b42-360d8eb1dd61
 
 
 
